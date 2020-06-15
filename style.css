@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffebee;
+}
+.heading {
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 10px;
+  border-right: 3px dashed black;
+
+  /* padding: b; */
+}
+.function {
+  margin: 10px 0;
+  padding: 10px 10px;
+}
+.contentBar {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contentHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 4px dashed black;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+.contentTable {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.contentTableEntity {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  height: 10px;
+}
+.contentHeaderPerson,
+.contentHeaderWealth {
+  font-size: 150%;
+}
+
+.contentTableSum {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  height: 10px;
+
+  border-top: 3px dashed black;
+}
